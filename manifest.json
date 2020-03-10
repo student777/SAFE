@@ -1,0 +1,12 @@
+  {
+    "name": "SAFE",
+    "version": "0.1",
+    "description": "Snulife Average Face Expectation",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["https://snulife.com/*"],
+        "css": ["snulife.css"]
+      }
+    ]
+  }
