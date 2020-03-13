@@ -1,20 +1,33 @@
 {
-  "name": "SAFE",
-  "version": "0.4",
-  "description": "Snulife Average Face Expectation",
-  "manifest_version": 2,
-  "content_scripts": [
-    {
-      "matches": [
-        "https://snulife.com/best/*",
-        "https://snulife.com/index.php?mid=best*"
-      ],
-      "css": ["snulife.css"]
-    },
-    {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["youtube.js"],
-      "css": ["youtube.css"]
+    "name": "SAFE",
+    "version": "0.4",
+    "description": "Snulife Average Face Expectation",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://snulife.com/best/*",
+                "https://snulife.com/index.php?mid=best*"
+            ],
+            "css": [
+                "snulife.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.youtube.com/*"
+            ],
+            "js": [
+                "youtube.js"
+            ],
+            "css": [
+                "youtube.css"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
     }
-  ]
 }
