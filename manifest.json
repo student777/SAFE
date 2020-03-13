@@ -1,12 +1,21 @@
-  {
-    "name": "SAFE",
-    "version": "0.1",
-    "description": "Snulife Average Face Expectation",
-    "manifest_version": 2,
-    "content_scripts": [
-      {
-        "matches": ["https://snulife.com/*"],
-        "css": ["snulife.css"]
-      }
-    ]
-  }
+{
+  "name": "SAFE",
+  "version": "0.2",
+  "description": "Snulife Average Face Expectation",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://snulife.com/best/*"],
+      "css": ["snulife.css"]
+    },
+    {
+      "matches": ["https://youtube.com/watch?*"],
+      "js": ["youtube.js"],
+      "css": ["youtube.css"]
+    },
+    {
+      "matches": ["https://naver.com/*"],
+      "js": ["test.js"]
+    }
+  ]
+}

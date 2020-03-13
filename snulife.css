@@ -1,3 +1,14 @@
+#sub_lnb,
+#sub_col3,
+#bd iframe,
+#footer,
+#header,
+.header_title,
+.header_text,
 #sitemapWrap {
     display: none !important;
+}
+#sub_content {
+    float: none !important;
+    margin: auto !important;
 }
