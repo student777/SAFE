@@ -5,7 +5,10 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://snulife.com/best/*"],
+      "matches": [
+        "https://snulife.com/best/*",
+        "https://snulife.com/index.php?mid=best*"
+      ],
       "css": ["snulife.css"]
     },
     {
