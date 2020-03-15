@@ -1,3 +1,7 @@
 div.ytp-ad-overlay-slot {
     display: none !important;
 }
+
+div#player-ads {
+    display: none !important;
+}
