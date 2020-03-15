@@ -31,6 +31,14 @@
             "css": [
                 "ppomppu.css"
             ]
+        },
+        {
+            "matches": [
+                "https://v4.map.naver.com/*"
+            ],
+            "css": [
+                "navermap.css"
+            ]
         }
     ],
     "icons": {
