@@ -5,3 +5,7 @@ var intervalID = setInterval(() => {
     skipBtn.click();
     clearInterval(intervalID);
 }, 1000);
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 's')  document.querySelector('div.ytp-ad-text.ytp-ad-skip-button-text').click();
+});
