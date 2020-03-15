@@ -8,6 +8,8 @@ div.floating-banner,
 div.img-board,
 div#pp_ban_bbs_list,
 div.footer,
+div#result_box,
+div.ebay-ad,
 iframe {
     display: none !important;
 }

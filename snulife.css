@@ -5,6 +5,7 @@
 #header,
 .header_title,
 .header_text,
+div#wm_area,
 #sitemapWrap {
     display: none !important;
 }
