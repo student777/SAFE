@@ -1,0 +1,13 @@
+div.header,
+div.top-nav,
+div#header_box,
+div.inlink,
+div.sub-nav,
+div.bridge,
+div.floating-banner,
+div.img-board,
+div#pp_ban_bbs_list,
+div.footer,
+iframe {
+    display: none !important;
+}

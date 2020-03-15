@@ -23,6 +23,14 @@
             "css": [
                 "youtube.css"
             ]
+        },
+        {
+            "matches": [
+                "*://www.ppomppu.co.kr/*"
+            ],
+            "css": [
+                "ppomppu.css"
+            ]
         }
     ],
     "icons": {
