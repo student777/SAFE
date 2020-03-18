@@ -1,0 +1,13 @@
+div.section_footer,
+div.column_left,
+div.column_bottom,
+div._PM_timesquare_wrapper,
+div#veta_branding,
+div.column_banner {
+    display: none !important;
+}
+/* div#da_brand,
+iframe#da_iframe_rolling,
+iframe#da_iframe_time {
+    display: none;
+} */

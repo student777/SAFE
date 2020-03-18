@@ -39,6 +39,22 @@
             "css": [
                 "navermap.css"
             ]
+        },
+        {
+            "matches": [
+                "https://news.naver.com/*"
+            ],
+            "css": [
+                "navernews.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.naver.com/*"
+            ],
+            "css": [
+                "naver.css"
+            ]
         }
     ],
     "icons": {
