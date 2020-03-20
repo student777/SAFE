@@ -3,6 +3,7 @@ div.column_left,
 div.column_bottom,
 div._PM_timesquare_wrapper,
 div#veta_branding,
+div#da_top,
 div.column_banner {
     display: none !important;
 }
@@ -11,3 +12,7 @@ iframe#da_iframe_rolling,
 iframe#da_iframe_time {
     display: none;
 } */
+
+iframe#minime {
+    position: fixed !important;
+}
