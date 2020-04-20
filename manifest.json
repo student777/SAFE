@@ -47,14 +47,6 @@
             "css": [
                 "naver.news.css"
             ]
-        },
-        {
-            "matches": [
-                "https://www.naver.com/*"
-            ],
-            "css": [
-                "naver.css"
-            ]
         }
     ],
     "icons": {
