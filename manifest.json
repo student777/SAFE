@@ -26,14 +26,6 @@
         },
         {
             "matches": [
-                "*://www.ppomppu.co.kr/*"
-            ],
-            "css": [
-                "ppomppu.css"
-            ]
-        },
-        {
-            "matches": [
                 "https://v4.map.naver.com/*"
             ],
             "css": [
