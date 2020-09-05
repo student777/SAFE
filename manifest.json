@@ -13,18 +13,7 @@
                 "snulife.css"
             ]
         },
-        {
-            "matches": [
-                "https://www.youtube.com/*"
-            ],
-            "js": [
-                "youtube.js"
-            ],
-            "css": [
-                "youtube.css"
-            ]
-        },
-        {
+       {
             "matches": [
                 "https://v4.map.naver.com/*"
             ],
